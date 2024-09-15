@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Folder data={explorerData}/>
+      <Folder data={explorerData} setData={setExploreData}/>
     </>
   )
 }
